@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>使用IDA和Kali虚拟机实现linux动调</title>
+      <link href="/2024/10/27/Linux/"/>
+      <url>/2024/10/27/Linux/</url>
+      
+        <content type="html"><![CDATA[<p>最近在做Newstar Week3的时候，SMc_math用IDApython莫名奇妙的少一个方程，于是索性配置一下linux动调的环境</p><h1 id="配置前准备"><a href="#配置前准备" class="headerlink" title="配置前准备"></a>配置前准备</h1><p>IDA Pro、kali虚拟机</p><h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><h2 id="文件配置"><a href="#文件配置" class="headerlink" title="文件配置"></a>文件配置</h2><p>从IDA的本地文件中找到dbgsrv文件夹，将里面的文件复制到kali虚拟机中，这里我使用的64位虚拟机，所以需要复制的是linux_server64</p><p><img src="/2024/10/27/Linux/image-20241027135116781.png" alt="image-20241027135116781"></p><h2 id="在kali中激活文件"><a href="#在kali中激活文件" class="headerlink" title="在kali中激活文件"></a>在kali中激活文件</h2><p>在桌面打开命令行输入</p><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">./linux_server64</span><br></pre></td></tr></table></figure><p><img src="/2024/10/27/Linux/image-20241027135227263.png" alt="image-20241027135227263"></p><h2 id="获取kali虚拟机的ip"><a href="#获取kali虚拟机的ip" class="headerlink" title="获取kali虚拟机的ip"></a>获取kali虚拟机的ip</h2><p>右键联网选项打开连接信息可以获得ip地址，或者在命令行中输入ifconfig也可以</p><p><img src="/2024/10/27/Linux/image-20241027135428697.png" alt="image-20241027135428697"></p><h2 id="配置IDA远程调试"><a href="#配置IDA远程调试" class="headerlink" title="配置IDA远程调试"></a>配置IDA远程调试</h2><p>使用IDA打开文件，在动调选项中选择Remote Linux debugger，运行后会出现这个界面</p><p><img src="/2024/10/27/Linux/image-20241027135920258.png" alt="image-20241027135920258"></p><p>把刚刚在kali中获取到的ip输入到Hostname中，一路OK即可顺利开始调试 ↓</p><p><img src="/2024/10/27/Linux/image-20241027140037006.png" alt="image-20241027140037006"></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本来还以为配置linux的动调比较麻烦，没想到这么简单，早知道早点搞了XD</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>0xGame Week2 Writeup</title>
       <link href="/2024/10/18/0xgameW2/"/>
       <url>/2024/10/18/0xgameW2/</url>
