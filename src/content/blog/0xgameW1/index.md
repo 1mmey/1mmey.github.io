@@ -1,13 +1,11 @@
 ---
-title: '0xGame'
-publishDate: 2025-02-09
-updatedDate: 2025-02-24
-description: '3D imagery has the power to bring cinematic visions to life and help accurately plan tomorrow’s cityscapes. Here, 3D expert Ricardo Ortiz explains how it works.'
+title: '0xGame 2024 Week1 Writeup'
+publishDate: 2024-10-17
+description: '0xGame 2024 Week1 Writeup'
 tags:
-  - Example
-  - 3D
-language: 'English'
-heroImage: { src: './thumbnail.jpg', color: '#D58388' }
+  - CTF
+language: '中文'
+# heroImage: { src: './thumbnail.jpg', color: '#D58388' }
 ---
 
 ## 一、BabyBase

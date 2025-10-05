@@ -1,11 +1,9 @@
 ---
-title: 'TSCTF题解'
-publishDate: 2025-02-09
-updatedDate: 2025-02-24
-description: '3D imagery has the power to bring cinematic visions to life and help accurately plan tomorrow’s cityscapes. Here, 3D expert Ricardo Ortiz explains how it works.'
+title: 'TSCTF-J 2024 个人题解'
+publishDate: 2024-09-20
+description: 'TSCTF-J 2024 个人题解'
 tags:
-  - Example
-  - 3D
+  - CTF
 language: '中文'
 ---
 
