@@ -35,7 +35,7 @@ interface Props {
 const { title, list: friendList, ...props } = Astro.props
 
 const getAvatarSrc = (friend: friend) =>
-  (config.integ?.links?.cacheAvatar ?? false)
+  ((config.integ?.links as any)?.cacheAvatar ?? false)
     ? (friend.avatar_cache?.path ?? friend.avatar)
     : friend.avatar
 ---

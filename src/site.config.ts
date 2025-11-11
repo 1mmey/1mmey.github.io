@@ -118,9 +118,7 @@ export const integ: IntegrationUserConfig = {
       { name: 'Desc', val: theme.description || 'Null' },
       { name: 'Link', val: 'https://astro-pure.js.org/' },
       { name: 'Avatar', val: 'https://astro-pure.js.org/favicon/favicon.ico' }
-    ],
-    // Cache avatars in `public/avatars/` to improve user experience.
-    cacheAvatar: false
+    ]
   },
   // Enable page search function
   pagefind: true,

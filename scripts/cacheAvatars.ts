@@ -31,7 +31,7 @@ const projectRoot = path.resolve(__dirname, '..')
 const linksJsonPath = path.join(projectRoot, 'public', 'links.json')
 const avatarOutputDir = path.join(projectRoot, 'public', 'avatars')
 
-const cacheAvatar = siteConfig.integ?.links?.cacheAvatar ?? false
+const cacheAvatar = (siteConfig.integ?.links as any)?.cacheAvatar ?? false
 
 if (!cacheAvatar) {
   console.log(
